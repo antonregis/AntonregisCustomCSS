@@ -1,0 +1,54 @@
+/*
+* FRONT/HOME PAGE STYLING 
+* This css is not linked to the drupal theme, but
+* a separate file just to style the front page. 
+*/
+
+body {
+  background: #738290;
+  text-align: center;
+  font-family: "Helvetica Neue", Helvetica, Arial;
+}
+
+.cover-box {
+   margin: 10%;
+}
+
+.cover-text {
+  color: white;
+  font-size: xx-large;
+}
+
+.my-name {
+  font-weight: bold;
+  font-size: 1.1em;  
+}
+
+.check-my-work-button {
+  font-size: 18px;
+  font-weight: bold;
+  background-color: lightgrey;
+  color: black;
+  border: 2px solid #555555;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 8px; 
+  margin-top: 20px;
+}
+
+.check-my-work-button:hover {
+  background: white;
+}
+
+.cover-image {
+  width: 175px;
+  border-radius: 50%;
+}
+
+.cover-message {
+    max-width: 400px;
+    font-size: x-large;
+    margin: 0 auto;
+}

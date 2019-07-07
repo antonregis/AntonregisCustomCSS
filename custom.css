@@ -1,0 +1,130 @@
+/* Global
+-----------------------------------------------*/
+	#site-name {
+    text-rendering: optimizeLegibility;
+    letter-spacing: .05em;
+    text-shadow: 
+      2px 2px 0px #d5d5d5, 
+      2px 2px 0px rgba(0, 0, 0, 0.2);
+	}
+
+   /* Header display on all pages */
+    div#content-wrap h1 {
+    color: #54d5a2;
+    text-decoration: underline overline dotted lightgrey;
+	}
+
+
+/* Main Menu on the top
+-----------------------------------------------*/
+
+    li.leaf, li.expanded a {
+        text-transform: uppercase;
+	}
+
+
+
+/* Project menu block on the right hand side
+-----------------------------------------------*/
+
+    .block-menu-project-title div span.field-content a {
+        margin-left: 10px;
+    }
+    
+    .block-menu-project-title div span a:hover {
+        font-weight: bold;
+    } 
+
+
+/* About page 
+-----------------------------------------------*/
+    .pls-view-my-portfolio-here {
+        font-size: 1.2em;   
+    }
+
+    a:hover.pls-view-my-portfolio-here {
+        color: black;
+    }    
+    
+    .more-info-about-me {
+        margin-bottom: 10px;
+    }
+
+    .page-node #content-wrap img.social-media-icon {
+        width: 35px;
+        margin: 0px 20px 0px 0px;
+        border: 0px;
+        padding: 0px;
+    }
+
+
+/* PORTFOLIO Header 
+-----------------------------------------------*/
+
+    a.project-header-link {
+        color: black;
+        font-weight: bold;
+        font-size: 16px;
+    }
+    
+    a:hover.project-header-link {
+        color: #54d5a2;
+    }    
+    
+        
+/* Portfolio/Projects responsive grid view
+-----------------------------------------------*/
+
+    /* Project category/tag headers */
+    div.view-portfolio div h3 a {
+        display: block;
+        margin: 5px;
+        padding: 2px;
+    }
+
+    /* Grid boxes */
+    .views-grid-row {
+        display: inline-block;
+        margin: 5px;    
+        padding: 10px;
+        width: 127px;
+        height: 160px;
+        background: white;
+        overflow: hidden;
+    }
+ 
+    .project-grid-title {
+        font-size: 1.2em;
+        font-weight: bold;
+		overflow: hidden;
+    }
+    
+    .project-grid-title a:hover{
+        font-size: 1.1em;
+    }
+
+    .project-grid-body {
+        margin-bottom: 3px;
+    }
+    
+    
+/* Project page
+-----------------------------------------------*/
+
+    /* Link at the bottom of the page */	
+    .field-name-field-project-link {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    
+    .link-url {
+        margin-bottom: 5px;
+    }
+
+
+
+
+
+
+
+
